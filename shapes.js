@@ -54,9 +54,13 @@ parallelogram1.style.backgroundColor = parallelogram.color
 
 setInterval(function () {
   moon.classList.toggle("moon1")
-}, 3000);
+}, 1000);
 
+setInterval(function() {
 
+  space.classList.toggle("space1")
+  
+}, 1000);
 
 
 

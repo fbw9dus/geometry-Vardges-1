@@ -42,8 +42,19 @@
   height: 1em;
   overflow: hidden;
   margin: 50px 0 70px 65px;
+  transition: all 1s ease-in-out;
 }
 
+.space1 {
+ 
+  margin-left: 50rem;
+  overflow: hidden;
+  width: 3rem;
+  
+
+
+
+}
 
 .egg {
   border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
@@ -55,12 +66,15 @@
 .moon {
   margin-top: 2rem;
   border-radius: 50%;
-  box-shadow:   15px 3px 5px 5px  rgb(99, 97, 97);
+  box-shadow: 15px 3px 5px 5px rgb(99, 97, 97);
   width: 6rem;
   height: 6rem;
 }
-.moon1{
-  
-  box-shadow:  13px 19px 58px 28px yellow;
-}
 
+.moon1 {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 0;
+  box-shadow: 13px 19px 58px 28px yellow;
+  transition: all 0.5s ease-in-out;
+}
