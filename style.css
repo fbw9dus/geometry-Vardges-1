@@ -5,3 +5,62 @@
 .parallelogram {
   transform: skew(20deg);
 }
+
+.space-invader {
+  box-shadow: 0 0 0 1em red,
+    0 1em 0 1em red,
+    -2.5em 1.5em 0 .5em red,
+    2.5em 1.5em 0 .5em red,
+    -3em -3em 0 0 red,
+    3em -3em 0 0 red,
+    -2em -2em 0 0 red,
+    2em -2em 0 0 red,
+    -3em -1em 0 0 red,
+    -2em -1em 0 0 red,
+    2em -1em 0 0 red,
+    3em -1em 0 0 red,
+    -4em 0 0 0 red,
+    -3em 0 0 0 red,
+    3em 0 0 0 red,
+    4em 0 0 0 red,
+    -5em 1em 0 0 red,
+    -4em 1em 0 0 red,
+    4em 1em 0 0 red,
+    5em 1em 0 0 red,
+    -5em 2em 0 0 red,
+    5em 2em 0 0 red,
+    -5em 3em 0 0 red,
+    -3em 3em 0 0 red,
+    3em 3em 0 0 red,
+    5em 3em 0 0 red,
+    -2em 4em 0 0 red,
+    -1em 4em 0 0 red,
+    1em 4em 0 0 red,
+    2em 4em 0 0 red;
+  background: red;
+  width: 1em;
+  height: 1em;
+  overflow: hidden;
+  margin: 50px 0 70px 65px;
+}
+
+
+.egg {
+  border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+  background-color: gold;
+  width: 6rem;
+  height: 8rem;
+}
+
+.moon {
+  margin-top: 2rem;
+  border-radius: 50%;
+  box-shadow:   15px 3px 5px 5px  rgb(99, 97, 97);
+  width: 6rem;
+  height: 6rem;
+}
+.moon1{
+  
+  box-shadow:  13px 19px 58px 28px yellow;
+}
+
