@@ -1,0 +1,7 @@
+.circle {
+  border-radius: 50%;
+}
+
+.parallelogram {
+  transform: skew(20deg);
+}
